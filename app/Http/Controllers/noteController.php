@@ -12,7 +12,8 @@ class noteController extends Controller
      */
     public function index()
     {
-        //
+    //    return "index Page";
+        return $data=Note::all();
     }
 
     /**
